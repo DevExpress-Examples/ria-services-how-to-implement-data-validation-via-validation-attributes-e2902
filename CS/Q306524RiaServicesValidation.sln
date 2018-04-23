@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q306524RiaServicesValidation", "Q306524RiaServicesValidation\Q306524RiaServicesValidation.csproj", "{DFC260BA-7D2F-44F3-8495-F24BA6960357}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7D906E59-046D-4DC8-9927-2E9CAB8EC081} = {7D906E59-046D-4DC8-9927-2E9CAB8EC081}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q306524RiaServicesValidation.Web", "Q306524RiaServicesValidation.Web\Q306524RiaServicesValidation.Web.csproj", "{7D906E59-046D-4DC8-9927-2E9CAB8EC081}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFC260BA-7D2F-44F3-8495-F24BA6960357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC260BA-7D2F-44F3-8495-F24BA6960357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC260BA-7D2F-44F3-8495-F24BA6960357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC260BA-7D2F-44F3-8495-F24BA6960357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D906E59-046D-4DC8-9927-2E9CAB8EC081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D906E59-046D-4DC8-9927-2E9CAB8EC081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D906E59-046D-4DC8-9927-2E9CAB8EC081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D906E59-046D-4DC8-9927-2E9CAB8EC081}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
